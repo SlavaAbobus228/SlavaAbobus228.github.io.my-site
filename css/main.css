@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body {
+	background-color: LightCyan;
+}
+
+.foto {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: Orchid;
+	background-size: cover;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+
+#photo1 {
+	background-image: url(../img/img_1.jpg);
+}
+
+#photo2 {
+	background-image: url(../img/img_2.jpg);
+}
+
+#photo3 {
+	background-image: url(../img/img_3.jpg);
+}
